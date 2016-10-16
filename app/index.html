@@ -1,0 +1,13 @@
+<html>
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.16.4/lodash.js"></script>
+<script type="text/javascript" src="svg-to-wkt.js"></script>
+
+
+<script>
+    var k = SVGtoWKT.convert('<svg><polygon points="1,2 3,4 5,6" /><line x1="7" y1="8" x2="9" y2="10" /></svg>');
+    console.log(k);
+</script>
+</html>
